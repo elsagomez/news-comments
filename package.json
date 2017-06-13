@@ -1,0 +1,32 @@
+{
+  "name": "news-comments",
+  "version": "1.0.0",
+  "description": "Using cheerio and mongo to scrape a news website and let users add comments",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsagomez/news-comments.git"
+  },
+  "keywords": [
+    "cheerio",
+    "mongo"
+  ],
+  "author": "Elsa Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elsagomez/news-comments/issues"
+  },
+  "homepage": "https://github.com/elsagomez/news-comments#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "cheerio":"^0.20.0",
+    "morgan": "^1.7.0",
+    "request":"^2.69.0",
+    "mongoose": "^4.4.6"   
+  }
+}
